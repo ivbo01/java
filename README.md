@@ -1,3 +1,5 @@
+Задания: https://drive.google.com/drive/folders/10fp-olO1h52YLS_g2xr3vcRszgL9Sf0j
+
 ### Листинг 1.1 Пример объявления класса
 ```java
 public class Main { // файл Main.java
