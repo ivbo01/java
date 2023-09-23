@@ -10,29 +10,29 @@ public class Main {
         String input_sum = parts[0];
         String input_currency = parts[1].toUpperCase();
         
-        double amount = Double.parseDouble(input_sum);
-
+        double sum = Double.parseDouble(input_sum);
+        
         System.out.println("Валюта, в которую конвертируем (USD, EUR, RUB): ");
         String output_currency = scanner.nextLine().toUpperCase();
+        double output_sum = 0;
 
-        double convertedAmount = 0;
 
         if (input_currency.equals("USD") && output_currency.equals("RUB")) {
-            convertedAmount = amount * 96.0;
+            output_sum = sum * 96.0;
         } else if (input_currency.equals("EUR") && output_currency.equals("RUB")) {
-            convertedAmount = amount * 102.0; 
+            output_sum = sum * 102.0; 
         } else if (input_currency.equals("EUR") && output_currency.equals("USD")) {
-            convertedAmount = amount * 1.07;
+            output_sum = sum * 1.07;
         } else if (input_currency.equals("RUB") && output_currency.equals("USD")) {
-            convertedAmount = amount / 96.0;
+            output_sum = sum / 96.0;
         } else if (input_currency.equals("RUB") && output_currency.equals("EUR")) {
-            convertedAmount = amount / 102.0;
+            output_sum = sum / 102.0;
         } else if (input_currency.equals("USD") && output_currency.equals("EUR")) {
-            convertedAmount = amount / 1.07;
+            output_sum = sum / 1.07;
         } else {
             System.out.println("Конвертация недоступна.");
         }
 
-        System.out.println(input_sum + " " + input_currency + " равно " + convertedAmount + " " + output_currency);
+        System.out.println(input_sum + " " + input_currency + " равно " + output_sum + " " + output_currency);
     }
 }
