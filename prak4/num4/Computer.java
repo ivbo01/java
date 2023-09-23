@@ -17,7 +17,7 @@ class Computer {
         System.out.println("Марка компьютера: " + brand);
         System.out.println("Процессор: " + processor.getModel() + " (" + processor.getGHz() + " GHz)");
         System.out.println("Оперативная память: " + memory.getSize() + " ГБ");
-        System.out.println("Монитор: " + monitor.getModel() + " (" + monitor.getScreen() + " дюймов)");
+        System.out.println("Монитор: " + monitor.getModel() + " (" + monitor.getSize() + " дюймов)");
     }
     
     public static void main(String[] args) {
@@ -81,7 +81,7 @@ class Monitor {
         return model;
     }
 
-    public double getScreen() {
+    public double getSize() {
         return size;
     }
 }
