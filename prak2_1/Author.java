@@ -1,4 +1,4 @@
-package prak2;
+package prak2_1;
 
 public class Author {
   private String name;
