@@ -1,4 +1,4 @@
-public class Shape { // Необходимо реализовать простейший класс Shape (Фигура).
+public abstract class Shape { // Теперь класс Shape - абстрактный
     private String type;
 
     public Shape(String type) {
@@ -13,13 +13,8 @@ public class Shape { // Необходимо реализовать просте
         return type;
     }
     
-    public double getArea() {
-        return 0;
-    }
-
-    public double getPerimeter() {
-        return 0;
-    }
+    public abstract double getArea();
+    public abstract double getPerimeter();
     
     public String toSpring() {
         return "Shape";
