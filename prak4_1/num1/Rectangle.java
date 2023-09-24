@@ -1,3 +1,4 @@
+package prak4_1.num1;
 // Прямоугольник
 public class Rectangle extends Shape {
     private double width;

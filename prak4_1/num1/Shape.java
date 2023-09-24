@@ -1,3 +1,5 @@
+package prak4_1.num1;
+
 public class Shape { // Необходимо реализовать простейший класс Shape (Фигура).
     private String type;
 

@@ -1,5 +1,5 @@
-// С помощью наследования создайте дочерние классы Circle, Rectangle и Square.
-// Круг
+package prak4_1.num1;
+// С помощью наследования создайте дочерние классы Circle, Rectangle и Square. Круг
 public class Circle extends Shape {
     private double radius;
     

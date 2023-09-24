@@ -1,3 +1,4 @@
+package prak4_1.num1;
 // Квадрат
 public class Square extends Shape {
     private double side;

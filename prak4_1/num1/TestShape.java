@@ -1,3 +1,5 @@
+package prak4_1.num1;
+
 public class TestShape {
     public static void main(String[] args) {
 
