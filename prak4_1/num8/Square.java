@@ -1,5 +1,8 @@
 public class Square extends Rectangle {
     public Square(double side) {
+    }
+    
+    public Square(double side) {
         super(side, side); // Вызываем конструктор суперкласса Rectangle с одинаковой длиной и шириной
     }
 
