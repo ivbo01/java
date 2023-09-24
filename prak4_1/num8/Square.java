@@ -15,11 +15,6 @@ public class Square extends Rectangle {
         setWidth(side);  // Метод установки длины стороны квадрата
         setLength(side); // Установка ширины как длины
     }
-
-    @Override
-    public String toString() {
-        return "Square[side=" + getSide() + "," + super.toString() + "]";
-    }
     // Переопределяем метод setWidth так, чтобы он устанавливал ширину и длину одновременно
     @Override
     public void setWidth(double side) {
@@ -32,5 +27,9 @@ public class Square extends Rectangle {
     public void setLength(double side) {
         super.setLength(side); // Вызываем метод суперкласса для установки длины (и ширины)
         super.setWidth(side); // Устанавливаем ширину также равной стороне
+    }
+    @Override
+    public String toString() {
+        return "Square[side=" + getSide() + "," + super.toString() + "]";
     }
 }
