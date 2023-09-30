@@ -2,6 +2,9 @@
 <br>
 Список заданий: https://docs.google.com/spreadsheets/d/17P4XbeMGqjjmKQoFFItS05aNuMGcOu_iEsN5EdPHYu4
 
+### .\ivc116-117
+### 67
+
 ### Листинг 1.1 Пример объявления класса
 ```java
 public class Main { // файл Main.java
