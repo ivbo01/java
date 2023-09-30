@@ -1,6 +1,8 @@
 Задания: https://drive.google.com/drive/folders/10fp-olO1h52YLS_g2xr3vcRszgL9Sf0j
 <br>
 Список заданий: https://docs.google.com/spreadsheets/d/17P4XbeMGqjjmKQoFFItS05aNuMGcOu_iEsN5EdPHYu4
+<br>
+Список: https://docs.google.com/spreadsheets/d/1XOUp-YLH3GhE9tt7ZoCSyO8RG3OGjF7Zx84h8rc2Ehk
 
 ### .\ivc116-117
 ### 67
