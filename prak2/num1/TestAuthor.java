@@ -13,5 +13,6 @@ public class TestAuthor {
 
         Author author1 = new Author(inputname, inputemail, inputgender);
         System.out.print(author1.toString());
+        sc.close();
     }
 }

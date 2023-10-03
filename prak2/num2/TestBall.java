@@ -21,5 +21,6 @@ public class TestBall {
         System.out.println("Ball1: " + ball1.toString());
         System.out.println("Ball2: " + ball2.toString());
         System.out.println("Ball3: " + ball3.toString());
+        sc.close();
     }
 }

@@ -1,13 +1,6 @@
 public class Square extends Rectangle {
-    public Square(double side) {
-    }
-    
-    public Square(double side) {
-        super(side, side); // Вызываем конструктор суперкласса Rectangle с одинаковой длиной и шириной
-    }
-
     public Square(double side, String color, boolean filled) {
-        super(side, side, color, filled); // Вызываем конструктор суперкласса Rectangle с заданными параметрами
+        super(color, filled, side, side); // Вызываем конструктор суперкласса Rectangle с заданными параметрами (одинаковой длиной и шириной)
     }
 
     public double getSide() {

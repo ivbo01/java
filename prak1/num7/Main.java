@@ -14,5 +14,6 @@ public class Main {
         Scanner sc = new Scanner(System.in); // создаём объект класса Scanner
         int i = sc.nextInt();
         System.out.println(fact(i));
+        sc.close();
     }
 }

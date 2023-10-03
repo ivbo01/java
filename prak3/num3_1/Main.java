@@ -34,5 +34,6 @@ public class Main {
         }
 
         System.out.println(input_sum + " " + input_currency + " равно " + output_sum + " " + output_currency);
+        scanner.close();
     }
 }

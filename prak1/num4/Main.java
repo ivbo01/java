@@ -18,5 +18,6 @@ public class Main {
         int max = stat.getMax();
         System.out.println("Минимальный символ: " + min);
         System.out.println("Максимальный символ: " + max);
+        sc.close();
     }
 }
