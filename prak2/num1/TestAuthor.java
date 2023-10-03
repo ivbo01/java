@@ -1,4 +1,4 @@
-package prak2_1;
+package prak2.num1;
 import java.util.Scanner;
 
 public class TestAuthor {

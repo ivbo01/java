@@ -2,8 +2,8 @@ package prak1.num7;
 import java.util.Scanner;
 
 public class Main {
-    public static long double fact(int f){
-        long double factorial_result = 1; 
+    public static double fact(int f){
+        double factorial_result = 1; 
         for (int i = 1; i <= f; i++) {
             factorial_result *= i;
         }

@@ -7,7 +7,7 @@ public class Main {
 				new User("user2", "pass2"),
 		};
 
-		var i = 0;
+		int i = 0;
 		while(i < users.length) {
 				System.out.println(users[i]);
 				i++;
