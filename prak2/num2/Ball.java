@@ -1,4 +1,4 @@
-package prak2_2;
+package prak2.num2;
 
 public class Ball {
   private double x;
