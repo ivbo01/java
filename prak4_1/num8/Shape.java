@@ -1,3 +1,4 @@
+package prak4_1.num8;
 // Перепишите суперкласс Shape из задания 1, сделайте его абстрактным и наследуйте подклассы, так как это представлено на UML диаграмме на рис. 4.1 Circle, Rectangle и Square.
 public abstract class Shape {
     protected String color;

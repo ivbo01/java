@@ -1,3 +1,5 @@
+package prak4_1.num8;
+
 public class Square extends Rectangle {
     public Square(double side, String color, boolean filled) {
         super(color, filled, side, side); // Вызываем конструктор суперкласса Rectangle с заданными параметрами (одинаковой длиной и шириной)

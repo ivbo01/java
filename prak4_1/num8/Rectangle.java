@@ -1,3 +1,5 @@
+package prak4_1.num8;
+
 public class Rectangle extends Shape {
     private double width;
     private double length;
