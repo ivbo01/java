@@ -7,6 +7,8 @@
 ### .\ivc116-117
 ### 67
 
+![image](https://github.com/ivbo01/java/assets/144561607/77a99e5f-2eba-4f6f-89e3-a538837cb4fc)
+
 ### Листинг 1.1 Пример объявления класса
 ```java
 public class Main { // файл Main.java
