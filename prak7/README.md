@@ -52,3 +52,7 @@ static Printable createPrintable(String name, boolean option) {
         return new Journal(name);
 }
 ```
+
+Метод read() в качестве параметра принимает объект интерфейса Printable, поэтому в этот метод мы можем передать как объект Book, так и объект Journal.
+
+Метод createPrintable() возвращает объект Printable, поэтому также мы можем возвратить как объект Book, так и Journal.
