@@ -62,3 +62,41 @@ class SecondGui {
     }
 }
 ```
+
+Мы видим на рисунке только вторую кнопку. Дело в том, что приложение имеет многослойную структуру и следующий компонент, который мы добавили закрывает или наслаивается н предыдущий. Для того чтобы избежать этого эффекта нужно использовать контейнеры для организации компонентов и менеджеры компоновки. Добавим к нашему коду объект класса JPanel, он использует менеджер компоновки по умолчанию. Но вы можете изменить его с помощью метода setLayout().
+
+```java
+import java.awt.*;
+import javax.swing.*;
+
+public class ThirdGui {
+    public static void main(String args[]) {
+        // Создаем фрейм окна с помощью конструктора
+        JFrame frame = new JFrame("My Second GUI");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(200, 150);
+
+        // Создаем панель
+        JPanel panel = new JPanel();
+        
+        // Задаем свойства панели: цвет фона и размеры
+        panel.setBackground(Color.GRAY);
+        panel.setPreferredSize(new Dimension(200, 300));
+
+        JButton button1 = new JButton("Button 1");
+        JButton button2 = new JButton("Button 2");
+
+        panel.add(button1);
+        panel.add(button2);
+
+        // Добавляем панель на контентную панель окна
+        frame.getContentPane().add(panel);
+        
+        // Упаковываем компоненты во фрейм
+        frame.pack();
+        
+        // Делаем окно видимым
+        frame.setVisible(true);
+    }
+}
+```
