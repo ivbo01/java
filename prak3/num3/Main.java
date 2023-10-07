@@ -1,3 +1,4 @@
+package prak3.num3;
 import java.util.Scanner;
 // Создать класс конвертор валют.
 public class Main {

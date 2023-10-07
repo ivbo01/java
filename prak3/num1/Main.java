@@ -1,4 +1,4 @@
-package prak3.num1_1;
+package prak3.num1;
 
 public class Main {
     public static void main(String[] args) {
