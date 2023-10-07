@@ -21,3 +21,10 @@ class Book implements Printable {
     System.out.printf("Книга '%s' (автор %s) была издана в %d году \n", name, author, year);}
 }
 ```
+
+В тоже время мы не можем напрямую создавать объекты интерфейсов, поэтому следующий код не будет работать:
+
+```java
+Printable pr = new Printable();
+pr.print();
+```
