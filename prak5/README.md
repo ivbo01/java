@@ -38,3 +38,27 @@ class FirstGui {
     }
 }
 ```
+
+```java
+import javax.swing.*;
+
+class SecondGui {
+    public static void main(String args[]) {
+        // Создаем фрейм окна с помощью конструктора
+        JFrame frame = new JFrame("My First GUI");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(300, 300);
+
+        // Создаем две кнопки
+        JButton button1 = new JButton("Button 1");
+        JButton button2 = new JButton("Button 2");
+
+        // Добавляем кнопки на контентную панель окна
+        frame.getContentPane().add(button1);
+        frame.getContentPane().add(button2);
+
+        // Делаем окно видимым
+        frame.setVisible(true);
+    }
+}
+```
