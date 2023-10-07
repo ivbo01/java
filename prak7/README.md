@@ -56,3 +56,14 @@ static Printable createPrintable(String name, boolean option) {
 Метод read() в качестве параметра принимает объект интерфейса Printable, поэтому в этот метод мы можем передать как объект Book, так и объект Journal.
 
 Метод createPrintable() возвращает объект Printable, поэтому также мы можем возвратить как объект Book, так и Journal.
+
+### Статические методы интерфейса
+Интерфейс Java может иметь статические методы. Статические методы в интерфейсе Java должны иметь реализацию, в отличие от обычных методов.
+
+```java
+public interface MyInterface {
+  public static void print (String text) {
+    System.out.print (текст);
+  }
+}
+```
