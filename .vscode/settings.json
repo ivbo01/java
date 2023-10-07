@@ -7,5 +7,6 @@
     "workbench.colorTheme": "Visual Studio Dark",
     "explorer.confirmDragAndDrop": false,
     "editor.mouseWheelZoom": true,
-    "java.debug.settings.onBuildFailureProceed": true
+    "window.titleBarStyle": "none",
+    "java.debug.settings.onBuildFailureProceed": true,
 }
