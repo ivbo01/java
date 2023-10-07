@@ -28,3 +28,27 @@ class Book implements Printable {
 Printable pr = new Printable();
 pr.print();
 ```
+
+И также, как и в случае с классами, интерфейсы могут использоваться в качестве типа параметров метода или в качестве возвращаемого типа:
+
+```java
+public static void main(String[] args) {
+    Printable printable = createPrintable("Компьютерра", false);
+    printable.print();
+    read(new Book("Отцы и дети", "И. Тургенев", 1862));
+    read(new Journal("Хакер"));
+}
+
+// Статический метод класса
+static void read(Printable p) {
+    p.print();
+}
+
+// Статический метод
+static Printable createPrintable(String name, boolean option) {
+    if (option)
+        return new Book(name, "неизвестен", 2015);
+    else
+        return new Journal(name);
+}
+```
