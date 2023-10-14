@@ -1,6 +1,6 @@
 package prak4_1.num1;
 // Квадрат
-public class Square extends Shape {
+public class Square extends Shape { // лучше наследовать от Rectangle
     private double side;
 
     public Square(double side) {
