@@ -18,6 +18,7 @@ public enum Seasons {
     }
     // 5) Создать метод getDescription, возвращающий строку “Холодное время года”.
     // Переопределить метод getDescription - для константы Лето метод должен возвращать “Теплое время года”.
+    // Рекомендация: переделайте метод getDescription внутрь enum Seasons!
     public String getDescription() {
         if (this == Лето) {
             return "Теплое время года";
