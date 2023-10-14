@@ -3,7 +3,7 @@ package prak3.num1;
 public class Main {
     public static void main(String[] args) {
         // 1. Создайте объекты класса Double, используя методы valueOf().
-        Double x = Double.valueOf("100");
+        Double x = Double.valueOf("100"); // Double не примитивный тип (не путать с double)
         System.out.println("x = " + x);
         // 2. Преобразовать значение типа String к типу double. Используем метод Double.parseDouble().
         double y = Double.parseDouble("100");
