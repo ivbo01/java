@@ -27,9 +27,8 @@ public class Student implements Comparable<Student> {
 
     @Override
     public int compareTo(Student studentArg) {
-        // Сравниваем студентов по GPA в порядке убывания.
-        // Если текущий GPA больше, возвращаем отрицательное число.
-        // Если текущий GPA меньше, возвращаем положительное число.
+        // Если текущий GPA больше, возвращаем -1.
+        // Если текущий GPA меньше, возвращаем 1.
         // Если GPA равны, возвращаем 0.
         return Double.compare(studentArg.getGPA(), this.GPA);
     }
