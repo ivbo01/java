@@ -11,25 +11,25 @@ public class Main {
         List<Integer> arrayList = new ArrayList<>();
         List<Integer> linkedList = new LinkedList<>();
 
-        measureTime("Вставка в ArrayList", () -> {
+        funTime("Вставка в ArrayList", () -> {
             for (int i = 0; i < size; i++) {
                 arrayList.add(i);
             }
         });
-        measureTime("Вставка в LinkedList", () -> {
+        funTime("Вставка в LinkedList", () -> {
             for (int i = 0; i < size; i++) {
                 linkedList.add(i);
             }
         });
 
-        measureTime("Удаление из ArrayList", () -> {
+        funTime("Удаление из ArrayList", () -> {
             Iterator<Integer> iterator = arrayList.iterator();
             while (iterator.hasNext()) {
                 iterator.next();
                 iterator.remove();
             }
         });
-        measureTime("Удаление из LinkedList", () -> {
+        funTime("Удаление из LinkedList", () -> {
             Iterator<Integer> iterator = linkedList.iterator();
             while (iterator.hasNext()) {
                 iterator.next();
@@ -37,15 +37,15 @@ public class Main {
             }
         });
 
-        measureTime("Поиск в ArrayList", () -> {
+        funTime("Поиск в ArrayList", () -> {
             arrayList.contains(999);
         });
-        measureTime("Поиск в LinkedList", () -> {
+        funTime("Поиск в LinkedList", () -> {
             linkedList.contains(999);
         });
     }
 
-    private static void measureTime(String operation, Runnable run) {
+    private static void funTime(String operation, Runnable run) {
         long currentTime = System.nanoTime();
         run.run();
         long endTime = System.nanoTime();
