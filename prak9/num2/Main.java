@@ -8,10 +8,10 @@ public class Main {
     public static void main(String[] args) {
         List<Student> students1 = new ArrayList<>();
 
-        students1.add(new Student("Alice", 4.0));
-        students1.add(new Student("Bob", 3.7));
-        students1.add(new Student("Charlie", 3.9));
-        students1.add(new Student("David", 3.5));
+        students1.add(new Student("Алиса", 4.0));
+        students1.add(new Student("Никита", 3.7));
+        students1.add(new Student("Вася", 3.9));
+        students1.add(new Student("Николай", 3.5));
 
         for (Student i: students1) {
             System.out.println(i);
