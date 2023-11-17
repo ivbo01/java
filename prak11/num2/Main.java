@@ -30,7 +30,7 @@ public class Main {
                 System.out.println("Введенная дата совпадает с текущей датой.");
             }
         } catch (ParseException e) {
-            System.out.println("Некорректный формат даты. Пожалуйста, используйте формат (гггг-мм-дд чч:мм).");
+            System.out.println("Некорректный формат даты.");
         }
         scanner.close();
     }
