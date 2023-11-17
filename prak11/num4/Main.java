@@ -28,8 +28,8 @@ public class Main {
         Date date = createDate(year, month, day, hours, minutes);
         Calendar calendar = createCalendar(year, month, day, hours, minutes);
 
-        System.out.println("Созданный объект Date: " + date);
-        System.out.println("Созданный объект Calendar: " + calendar.getTime());
+        System.out.println(date);
+        System.out.println(calendar.getTime());
         scanner.close();
     }
 
