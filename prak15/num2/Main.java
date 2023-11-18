@@ -1,5 +1,5 @@
 package prak15.num2;
-
+// 2. Разработайте программу выбора меню как на рис. 15.8 ниже. Вам понадобится JComboBox. 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -15,7 +15,7 @@ public class Main {
         JTextArea TextInfoContry = new JTextArea();
         TextInfoContry.setBounds(50, 45, 300, 300);
 
-        ComboBox1.addActionListener(new ActionListener() {
+        ComboBox1.addActionListener(new ActionListener() { // При выборе пункта меню должна выводится информация о стране  3
             @Override
             public void actionPerformed(ActionEvent e) {
                 String selectedCountry = (String) ComboBox1.getSelectedItem();

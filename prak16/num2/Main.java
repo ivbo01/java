@@ -1,5 +1,5 @@
 package prak16.num2;
-
+// 2. Реализуйте программу на Джава с использованием JTextArea и двумя следующего меню выбора:
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -18,10 +18,12 @@ public class Main {
             JMenu colorMenu = new JMenu("Цвет");
             JMenu fontMenu = new JMenu("Шрифт");
 
+            // Цвет: который имеет возможность выбора из три возможных: синий, красный и черный
             JMenuItem color1 = new JMenuItem("Синий");
             JMenuItem color2 = new JMenuItem("Красный");
             JMenuItem color3 = new JMenuItem("Черный");
 
+            // Шрифт: три вида: “Times New Roman”, “MS Sans Serif”, “Courier New”. 
             JMenuItem font1 = new JMenuItem("Times New Roman");
             JMenuItem font2 = new JMenuItem("MS Sans Serif");
             JMenuItem font3 = new JMenuItem("Courier New");
@@ -55,7 +57,7 @@ public class Main {
     }
 
     private static class ChangeColor implements ActionListener {
-        private JTextArea textArea;
+        private JTextArea textArea; // Вы должны написать программу, которая с помощью меню, может изменять шрифт и цвет текста, написанного в JTextArea 
         private Color color;
 
         public ChangeColor(JTextArea textArea, Color color) {

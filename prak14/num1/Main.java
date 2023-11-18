@@ -1,5 +1,6 @@
 package prak14.num1;
-
+// 1, Необходимо реализовать консольное приложение,
+// позволяющее манипулировать строкой, разбив ее на элементы путем использования регулярных выражений. 
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

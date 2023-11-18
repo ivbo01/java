@@ -1,5 +1,5 @@
 package prak15.num3;
-
+// 3. Разработайте программу с меню, двумя кнопками и текстовым полем ввода.
 import javax.swing.*;
 import java.awt.*;
 import java.awt.datatransfer.*;
@@ -11,13 +11,13 @@ public class Main {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Hello Swing");
         JMenuBar menuBar = new JMenuBar();
-
+        // В этой программе у вас должны быть разные настройки в меню. Должно быть меню «Файл», 
         JMenu fileMenu = new JMenu("Файл");
-        JMenuItem saveItem = new JMenuItem("Сохранить");
+        JMenuItem saveItem = new JMenuItem("Сохранить"); // которое включает в себя подменю «Сохранить»,
         JMenuItem exitItem = new JMenuItem("Выйти");
         fileMenu.add(saveItem);
         fileMenu.add(exitItem);
-
+        // и «Правка», включая подменю «Копировать
         JMenu editMenu = new JMenu("Правка");
         JMenuItem copyItem = new JMenuItem("Копировать");
         JMenuItem cutItem = new JMenuItem("Вырезать");
