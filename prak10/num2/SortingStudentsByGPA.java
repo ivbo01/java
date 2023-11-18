@@ -8,18 +8,15 @@ import java.util.List;
 public class SortingStudentsByGPA {
     private List<Student> iDNumber; // Поле для хранения студентов
 
-    // Конструктор
     public SortingStudentsByGPA() {
         this.iDNumber = new ArrayList<>();
     }
 
-    // Метод для заполнения массива студентов
-    public void setArray(List<Student> iDNumber) {
+    public void setArray(List<Student> iDNumber) { // Метод для заполнения массива студентов
         this.iDNumber = iDNumber;
     }
 
-    // Метод для сортировки студентов по среднему баллу в порядке убывания
-    public void quicksort() {
+    public void quicksort() {  // Метод для сортировки студентов по среднему баллу в порядке убывания
         Collections.sort(iDNumber, new Comparator<Student>() {
             @Override
             public int compare(Student student1, Student student2) {
