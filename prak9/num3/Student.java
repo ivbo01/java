@@ -19,9 +19,6 @@ class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
-                "name='" + name + '\'' +
-                ", gpa=" + gpa +
-                '}';
+        return name + " " + gpa;
     }
 }
