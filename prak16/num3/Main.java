@@ -12,11 +12,8 @@ public class Main {
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
             JPanel mainPanel = new JPanel(new BorderLayout());
-            GridBagConstraints gbc = new GridBagConstraints();
-            gbc.anchor = GridBagConstraints.WEST;
-            gbc.insets = new Insets(5, 5, 5, 5);
-            
             JPanel labelsPanel = new JPanel(new GridLayout(4, 1));
+            
             JLabel serviceLabel = new JLabel("Service:");
             JLabel userLabel = new JLabel("User Name:");
             JLabel passwordLabel = new JLabel("Password:");
