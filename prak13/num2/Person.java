@@ -1,25 +1,25 @@
 package prak13.num2;
 
-public class Person {
-    private String lastName;
-    private String firstName;
+public class Person { // Разработать класс Person
+    private String name;
+    private String surname;
     private String middleName;
 
-    public Person(String lastName, String firstName, String middleName) {
-        this.lastName = lastName;
-        this.firstName = firstName;
+    public Person(String surname, String name, String middleName) {
+        this.name = surname;
+        this.surname = surname;
         this.middleName = middleName;
     }
 
-    public String getFormattedName() {
+    public String getFormattedName() { // в котором имеется функция, возвращающая Фамилию И.О.
         StringBuilder formattedName = new StringBuilder();
-        formattedName.append(lastName);
+        formattedName.append(surname);
 
-        if (firstName != null && !firstName.isEmpty()) {
-            formattedName.append(" ").append(firstName.charAt(0)).append(".");
+        if (name != null && !name.isEmpty()) { // Функция должна учитывать возможность отсутствия значений в полях Имя 
+            formattedName.append(" ").append(name.charAt(0)).append(".");
         }
 
-        if (middleName != null && !middleName.isEmpty()) {
+        if (middleName != null && !middleName.isEmpty()) { // и Отчество
             formattedName.append(" ").append(middleName.charAt(0)).append(".");
         }
 

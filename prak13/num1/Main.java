@@ -1,6 +1,7 @@
 package prak13.num1;
 
 public class Main {
+    // 1. Напишите метод, который принимает в качестве параметра любую строку, например “I like Java!!!”. 
     public static void manipulateString(String input) {
         System.out.println(input);
         System.out.println(input.toUpperCase());
@@ -11,22 +12,26 @@ public class Main {
         String str = "I like Java!!!";
         manipulateString(str);
 
+        // 2. Распечатать последний символ строки. Используем метод String.charAt(). 
         int length = str.length();
         char lastCharacter = str.charAt(length - 1);
         System.out.println(lastCharacter);
 
+        // 3. Проверить, заканчивается ли ваша строка подстрокой “!!!”. Используем метод String.endsWith(). 
         if (str.endsWith("!!!")) {
             System.out.println("Да");
         } else {
             System.out.println("Нет");
         }
 
+        // 4. Проверить, начинается ли ваша строка подстрокой “I like”. Используем метод String.startsWith(). 
         if (str.startsWith("I like")) {
             System.out.println("Да");
         } else {
             System.out.println("Нет");
         }
 
+        // 5. Проверить, содержит ли ваша строка подстроку “Java”. Используем метод String.contains(). 
         if (str.contains("Java")) {
             System.out.println("Да");
         } else {
