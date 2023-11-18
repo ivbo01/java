@@ -1,5 +1,5 @@
 package prak16.num3;
-
+// 3. Реализуйте программу Проверка пароля на Джава с использованием Layout менеджеров компоновки. 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -45,8 +45,8 @@ public class Main {
                 @Override
                 public void actionPerformed(ActionEvent e) {
                     String password = new String(passwordField.getPassword());
-
-                    if (password.length() >= 8 && password.matches(".*\\d.*") && password.matches(".*[a-zA-Z].*")) {
+                    // минимум 8 символов, хотя бы 1 большая буква, 1 цифра и один спец. знак
+                    if (password.matches("^(?=.*[A-Za-z])(?=.*\\d)(?=.*[@$!%*#?&])[A-Za-z\\d@$!%*#?&]{8,}$")) {
                         JOptionPane.showMessageDialog(frame, "Пароль верный", "Результат", JOptionPane.INFORMATION_MESSAGE);
                     } else {
                         JOptionPane.showMessageDialog(frame, "Пароль неверный", "Результат", JOptionPane.ERROR_MESSAGE);
