@@ -63,8 +63,6 @@ public class Student {
 
     @Override
     public String toString() {
-        return String.format("%s %s, %s, Курс %d, Группа %s, GPA %.1f",
-                firstName, lastName, specialty, course, group, gpa);
+        return  System.out.println(firstName, lastName, specialty, course, group, gpa);
     }
 }
-
