@@ -8,7 +8,7 @@ public class Main {
 
         Date date = new Date();
         System.out.println("Дата и время получения задания: " + date);
-        Date endDate = new Date(date.getTime() + 604800000);
+        Date endDate = new Date(date.getTime() + 86400000);
         System.out.println("Дата и время сдачи задания: " + endDate);
     }
 }
