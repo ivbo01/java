@@ -62,7 +62,7 @@ public class Main extends Application {
         }
 
         Scene scene = new Scene(root, 400, 400);
-        mainFrameStage.setTitle("Random Shapes");
+        mainFrameStage.setTitle("Рандомные фигуры");
         mainFrameStage.setScene(scene);
         mainFrameStage.show();
     }
