@@ -82,12 +82,12 @@ public class SortingStudentsByGPA {
         System.out.println("Unsorted Array:");
         sorter.outArray();
 
-        sorter.sortByName(); // Сортировка по имени
-        System.out.println("\nSorted Array by Name:");
+        sorter.sortByName();
+        System.out.println("Сортировка по имени:");
         sorter.outArray();
 
-        sorter.sortByCourse(); // Сортировка по курсу
-        System.out.println("\nSorted Array by Course:");
+        sorter.sortByCourse();
+        System.out.println("Сортировка по курсу:");
         sorter.outArray();
     }
 }
