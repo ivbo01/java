@@ -63,6 +63,6 @@ public class Student {
 
     @Override
     public String toString() {
-        return  System.out.println(firstName, lastName, specialty, course, group, gpa);
+        return firstName + " " + lastName + " " + specialty + " " + course + " " + group + " " + gpa;
     }
 }

@@ -11,7 +11,6 @@ public class Main {
         String input = scanner.nextLine();
 
         while (true) {
-            System.out.println("Выберите операцию:");
             System.out.println("1. Разбить строку на слова");
             System.out.println("2. Извлечь числа из строки");
             System.out.println("3. Заменить пробелы на подчеркивания");

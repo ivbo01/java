@@ -60,8 +60,7 @@ public class SortingStudentsByGPA {
         return result;
     }
 
-    // Метод для вывода массива студентов
-    public void outArray() {
+    public void outArray() { // вывод массива
         for (Student i: iDNumber) {
             System.out.println(i);
         }
@@ -71,12 +70,11 @@ public class SortingStudentsByGPA {
         SortingStudentsByGPA sorter = new SortingStudentsByGPA();
         sorter.iDNumber = new ArrayList<>();
 
-        sorter.iDNumber.add(new Student("Алиса", "Иванова", "Информатика", 2, "Группа1", 4.0));
-        sorter.iDNumber.add(new Student("Никита", "Петров", "Физика", 3, "Группа2", 3.7));
-        sorter.iDNumber.add(new Student("Вася", "Сидоров", "Химия", 1, "Группа3", 3.9));
-        sorter.iDNumber.add(new Student("Николай", "Федоров", "Биология", 4, "Группа4", 3.5));
+        sorter.iDNumber.add(new Student("Алиса", "Иванова", "Информатика", 2, "Группа 1", 4.0));
+        sorter.iDNumber.add(new Student("Никита", "Петров", "Физика", 3, "Группа 2", 3.7));
+        sorter.iDNumber.add(new Student("Вася", "Сидоров", "Химия", 1, "Группа 3", 3.9));
+        sorter.iDNumber.add(new Student("Николай", "Федоров", "Биология", 4, "Группа 4", 3.5));
 
-        System.out.println("Unsorted Array:");
         sorter.outArray();
 
         sorter.sortByName();
