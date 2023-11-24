@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 
 public class Main {
     public static void main(String[] args) {
-        JFrame frame = new JFrame("Country Information");
+        JFrame frame = new JFrame("Информация о странах");
 
         String[] countries = {"Australia", "China", "England", "Russia"};
         JComboBox<String> ComboBox1 = new JComboBox<>(countries);
@@ -19,7 +19,7 @@ public class Main {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String selectedCountry = (String) ComboBox1.getSelectedItem();
-                String countryInfo = "Information about " + selectedCountry;
+                String countryInfo = "Информация о " + selectedCountry;
                 TextInfoContry.setText(countryInfo);
             }
         });
