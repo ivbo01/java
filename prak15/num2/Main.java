@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Информация о странах");
 
-        String[] countries = {"Australia", "China", "England", "Russia"};
+        String[] countries = {"Австралия", "Китай", "Англия", "Россия"};
         JComboBox<String> ComboBox1 = new JComboBox<>(countries);
         ComboBox1.setBounds(50, 20, 150, 20);
 
