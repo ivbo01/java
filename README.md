@@ -4,19 +4,8 @@
 <br>
 Список: https://docs.google.com/spreadsheets/d/1XOUp-YLH3GhE9tt7ZoCSyO8RG3OGjF7Zx84h8rc2Ehk
 
-17. 1 любую
-18. все
-19. оба задания
-20. 2 любых
-21. 2 любых
-22. все
-23. 1 или 2 и 1 из дополнительных
-24. 1 любое
-
 ### .\ivc116-117
 ### 67
-
-![image](https://github.com/ivbo01/java/assets/144561607/77a99e5f-2eba-4f6f-89e3-a538837cb4fc)
 
 ### Листинг 1.1 Пример объявления класса
 ```java
